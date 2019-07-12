@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="css\stylecontact.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="contact-section">
+
+
+
+  <h1>Sign Up</h1>
+  <div class="border"></div>
+  <form class="contactForm" action="index.html" method="post" id="contactForm">
+    <input type="text" class="contact-form-text" placeholder="Your name" id="name">
+    <input type="email" class="contact-form-text" placeholder="Your email" id="mail">
+    <input type="text" class="contact-form-text" placeholder="Your phone" id="phone">
+    <select class="contact-form-text" id="choice">
+      <option>Host</option>
+      <option>Participant</option>
+    </select>
+    <textarea class="contact-form-text" placeholder="Your message"></textarea>
+    <input type="submit" class="contact-form-btn" value="Submit" id="submit">
+  </form>
+
+
+  <script src="https://www.gstatic.com/firebasejs/5.0.0/firebase.js"></script>
+
+</body>
+<script src="js\maincontact.js"></script>
+
+</html>
